@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Certificates</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+
+    body {
+    background-color: #FED8B1;
+    color: #A67B5B;
+            }
+
+    header {
+    background: #A67B5B;
+    color: #FED8B1;
+    padding: 15px;
+    text-align: center;
+    }
+
+    header a {
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.3s;
+    }
+
+    header a:hover {
+    color: #A67B5B;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -12,30 +45,30 @@
         <a href="./3-contact.html">Contact</a>
         <a href="./4-certificates.html">My Certificates</a>
         <a href="./5-experience.html">My Experiences</a>
-</header>
+    </header>
+    
     <main>
         <h1>My Certificates</h1>
         <p>
             Here are some of the certifications I've earned throughout my career. These showcase my skills and dedication to continuous learning.
         </p>
 
-            <div>
+        <div class="certificate-container">
+            <div class="certificate">
                 <img 
                 src="./images/Data Analytics Fundamental Certificate.png" 
-                alt="Data Analytics Fundamental Certificate" 
-                width="500"
-                />
+                alt="Data Analytics Fundamental Certificate" />
                 <p>Data Analytics Fundamental Certificate</p>
             </div>
-            <div>
+            <div class="certificate">
                 <img 
                 src="./images/GVA Certificate.png" 
-                alt="General Virtual Assistant Certificate" 
-                width="500"
-                />
+                alt="General Virtual Assistant Certificate" />
                 <p>General Virtual Assistant Certificate</p>
             </div>
+        </div>
     </main>
+
     <footer>
         <span><center>Copyright &copy; 2025 | All rights reserved</center></span>
     </footer>

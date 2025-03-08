@@ -1,0 +1,119 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FED8B1;
+    color: #ffff;
+}
+
+header {
+    background: #A67B5B;
+    color: #FED8B1;
+    padding: 15px;
+    text-align: center;
+}
+
+header a {
+    color: #ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: #A67B5B;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color:  #6F4E37;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #6F4E37;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #A67B5B;
+}
+
+
+/* div {
+    margin-bottom: 30px;
+    background: #ECB176;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+img {
+    border-radius: 50%;
+    /* border: 5px solid #e91e63; */
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #A67B5B;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #6F4E37;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #A67B5B;
+}
+
+/* About Me Centering */
+div:nth-child(2) {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Buttons */
+a i {
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    /* background: #A67B5B; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    /* border-top: 5px solid #e91e63; */
+}
+
+footer a {
+    color:#6F4E37;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
